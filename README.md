@@ -33,3 +33,6 @@ https://denys.dev/2018-03-02/your-angular-apps-as-docker-containers/?source=post
 run `docker run -p 80:80 --name angular-container -d fourgates/angular` to run project
 // TODO - docker compose
 
+$ docker ps # get the id of the running container
+$ docker stop <container> # kill it (gracefully)
+
