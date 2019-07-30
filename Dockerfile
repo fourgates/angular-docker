@@ -9,6 +9,8 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /app/package.json
+# TODO - figure out how to replace this
+# should just have to install once
 RUN npm install
 RUN npm install -g @angular/cli@1.6.5
 
